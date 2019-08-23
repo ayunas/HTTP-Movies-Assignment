@@ -60,11 +60,43 @@ body {
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
+  margin: 10px;
 }
 .save-button:hover {
   background-color: green;
   color: white;
 }
+
+.delete-button {
+  position: absolute;
+  top: 60px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+  margin: 10px;
+}
+.delete-button:hover {
+  background-color: green;
+  color: white;
+}
+
+.edit-button {
+  position: absolute;
+  top: 95px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+.edit-button:hover {
+  background-color: green;
+  color: white;
+}
+
 
 .home-button {
   padding: 5px 10px;
