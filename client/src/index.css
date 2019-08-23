@@ -97,6 +97,31 @@ body {
   color: white;
 }
 
+.add-button {
+  position: absolute;
+ /* top: 95px; */
+  left: 45%;
+  z-index: 1;
+  margin: 0 auto;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+  text-decoration: none;
+  color: black;
+}
+.add-button:hover {
+  background-color: green;
+  color: white;
+}
+
+form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .home-button {
   padding: 5px 10px;
@@ -106,4 +131,9 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+.movie-list {
+  /* background-color : red; */
+  position: relative;
 }
